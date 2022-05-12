@@ -1,0 +1,10 @@
+{
+    "home": {
+        "title1":"ReactJS Test Application",
+        "title2": "Description",
+        "button_dark":"Dark Mode",
+        "button_light":"Light Mode",
+        "text1":"This is a small application made with React and TailwindCSS technologies, created with the purpose of testing, demonstration and code reuse in future applications.",
+        "link1":"Github repository"
+    }
+}

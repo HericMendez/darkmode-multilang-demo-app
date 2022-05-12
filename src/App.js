@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { useState } from 'react';
+import Home from './components/Home';
+
 
 function App() {
+  const [darkmode, setDarkmode] = useState(false)
+  const darkmode_data = (darkdata) => setDarkmode(darkdata)
+
+  const [lang, setLang] = useState(false)
+  const language_data = (langdata) => setLang(langdata)
+
+  console.log("teste: ", lang)
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={darkmode ? 'dark' : ''}>
+
+      <Home dark={darkmode_data} language={language_data}/>
+
     </div>
   );
 }

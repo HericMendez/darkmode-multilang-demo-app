@@ -1,0 +1,10 @@
+{
+    "home": {
+        "title1":"Aplicação de Teste ReactJS",
+        "title2": "Descrição",
+        "button_dark":"Modo Escuro",
+        "button_light":"Modo Claro",
+        "text1":"Esta é uma pequena aplicação feita utilizando as tecnologias React e TailwindCSS, criada para fins de teste, demonstração e reutilização de código em aplicações futuras.",
+        "link1":"Link do Repositorio no Github"
+    }
+}
