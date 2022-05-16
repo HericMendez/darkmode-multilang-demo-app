@@ -9,8 +9,7 @@ function App() {
 
   const [lang, setLang] = useState(false)
   const language_data = (langdata) => setLang(langdata)
-
-  console.log("teste: ", lang)
+  console.log(lang)
 
 
   return (
